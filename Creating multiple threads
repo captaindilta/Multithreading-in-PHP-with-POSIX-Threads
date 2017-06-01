@@ -1,4 +1,3 @@
-```php
 <?php
 
 class MyThread extends Thread {
@@ -16,4 +15,3 @@ $thread2 = new MyThread();
 $thread2->start();
 
 ?>
-```
