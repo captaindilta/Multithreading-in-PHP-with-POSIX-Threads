@@ -9,5 +9,10 @@ pthreads API makes it easier for developers to implement threading in PHP by abs
 [Link to pthreads documentation on PHP manual](https://secure.php.net/manual/en/book.pthreads.php)
 ___
 
-## Multithreading
+## Processes and Threads
 ____
+A process is an executing instance of a computer program. Multiple process may be associated with the same program i.e. there can be several processes running the same program. Process is only one instance of a program in execution. Each process has its own address space unlike threads which share the address space of the process that created it.
+___
+A thread is an independent unit(sequence) of execution. Threads exist within a process. Each process has atleast one thread - i.e. the process itself, called the parent thread. Threads within a process share the address space of the process that created them. 
+A thread is a component of a process. 
+Multiple threads can exist within one process, executing concurrently and sharing resources of the same process, while different processes do not share their resources.
