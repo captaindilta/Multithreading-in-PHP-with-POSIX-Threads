@@ -16,3 +16,11 @@ ___
 A thread is an independent unit(sequence) of execution. Threads exist within a process. Each process has atleast one thread - i.e. the process itself, called the parent thread. Threads within a process share the address space of the process that created them. 
 A thread is a component of a process. 
 Multiple threads can exist within one process, executing concurrently and sharing resources of the same process, while different processes do not share their resources.
+___
+## Multithreading
+____
+The purpose of multithreading is to improve your application through parallelism.
+
+1. We have a job, a task (a program code).
+2. Can we divide our job (our code) into multiple independent units of execution?
+3. By dividing our job in multiple independent units we can distribute those units among our processors or cores in such a way that it maximizes the throughput of our application.
