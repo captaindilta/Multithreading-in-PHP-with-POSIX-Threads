@@ -25,6 +25,8 @@ The purpose of multithreading is to improve your application through parallelism
 2. Can we divide our job (our code) into multiple independent units of execution?
 3. By dividing our job in multiple independent units we can distribute those units among our processors or cores in such a way that it maximizes the throughput of our application.
 4. Threads are those independent units of execution that can run concurrently on a multiprocessor.
+5. Therefore, a thread is a single sequence stream within a process.
+5. In a process, threads allow multiple execution of streams.
 
 #### In a single process system also, threads can improve the application. 
 ____
