@@ -1,4 +1,2 @@
 # Multithreading-in-PHP-with-POSIX-Threads
-Test
-kdkddkdkkddld
-dkddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+___
