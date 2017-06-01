@@ -11,7 +11,7 @@ We will compare the total execution time with and without join().
 Task: Creating a thread, which generates an array of random numbers, sorts it and finally prints the array.
 
 Total Execution Time without join() : 0.0039939880371094 Seconds
-```
+```php
 <?php 
 
 class Simple
@@ -113,7 +113,7 @@ echo '<b>Total Execution Time:</b> '.$execution_time_secs.' Secs';
 _____
 
 Total Execution Time with join() : 2.1852819919586 Seconds
-```
+```php
 <?php 
 
 class Simple
